@@ -1,0 +1,233 @@
+/* .register {
+  padding-top: 130px;
+  background-image: url('/image/web/register.jpg');
+  background-size: cover;
+  opacity: 2;
+  padding-bottom: 150px;
+}
+.register form {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: white;
+  padding: 50px 40px 100px 40px;
+  opacity: 0.9;
+  box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.03);
+}
+.register form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  display: inline-block;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+}
+.register form > div {
+  margin-top: 20px;
+  width: 100%;
+  position: relative;
+}
+.register form button {
+  margin-top: 30px;
+  background-color: #3fd0d4;
+  border: none;
+  width: 100%;
+  padding: 20px;
+  opacity: 2;
+  font-size: 1.3rem;
+}
+
+.register form input {
+  position: relative;
+}
+.register form i {
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  color: red;
+  display: none;
+}
+.register form div .d-e {
+  margin-top: 3px;
+  font-size: 14px;
+  color: red;
+  margin-left: 5px;
+  display: none;
+}
+.register form .error .d-e {
+  display: block;
+}
+.register form .error i {
+  display: block;
+}
+.register form .error input {
+  border: 1px solid red;
+}
+.register form .login {
+  width: 100%;
+  text-align: right;
+  font-size: 13px;
+  margin: 10px 0 30px auto;
+}
+.register form .login a {
+  color: #3fd0d4;
+}
+.register .form-check {
+  display: flex;
+  gap: 200px;
+} */
+
+@import url('https://rsms.me/inter/inter-ui.css');
+::selection {
+  background: #2d2f36;
+}
+::-webkit-selection {
+  background: #2d2f36;
+}
+::-moz-selection {
+  background: #2d2f36;
+}
+.register {
+  background: #e2e2e5;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 40px);
+  background-image: url('/image/web/register.jpg');
+  background-size: cover;
+  place-content: center;
+  box-sizing: content-box;
+  padding-top: 50px;
+}
+.register-admin {
+  background-image: url('/image/web/register_admin.jpg');
+}
+.register .container {
+  margin-left: 50px;
+  display: flex;
+  margin-top: 70px;
+  width: 50vw;
+}
+
+/* @media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    height: 630px;
+    width: 320px;
+  }
+} */
+.register .left {
+  background: white;
+  height: 300px;
+  top: 5%;
+  position: relative;
+  width: 50%;
+  height: 400px;
+}
+.register-admin .left {
+  width: 50%;
+  height: 450px;
+  top: 5%;
+}
+/* @media (max-width: 767px) {
+  page.left {
+    height: 100%;
+    left: 20px;
+    width: calc(100% - 40px);
+    max-height: 270px;
+  }
+} */
+
+.register .title {
+  font-size: 50px;
+  font-weight: 900;
+  margin: 50px 40px 40px;
+}
+.eula {
+  color: #999;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 40px;
+}
+.register .right {
+  background: #474a59;
+  box-shadow: 0px 0px 40px 16px rgba(0, 0, 0, 0.22);
+  color: #f1f1f2;
+  position: relative;
+  width: 50%;
+}
+.register-admin .right {
+  width: 50%;
+}
+.register form {
+  padding: 40px;
+}
+.register .form .line {
+  border-top: 1px solid #3fd0d4;
+  width: 100%;
+}
+.register label {
+  color: #c2c2c5;
+  display: block;
+  font-size: 14px;
+  height: 16px;
+  margin: 15px 0;
+}
+.register input {
+  background: transparent;
+  border: 0;
+  color: #f2f2f2;
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  outline: none !important;
+  width: 100%;
+  margin-top: 0px;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+}
+
+.register .submit {
+  color: #707075;
+  margin-top: 10px;
+  transition: color 300ms;
+  width: 100%;
+  padding: 20px;
+  background-color: #474a60;
+  border: none;
+  font-weight: 600;
+}
+.register .active {
+  background-color: #2e2f38;
+  color: white;
+}
+.register form .error .d-e {
+  display: block;
+}
+.register form .error i {
+  display: block;
+}
+.register form input {
+  position: relative;
+}
+.register form i {
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  color: red;
+  display: none;
+}
+.register form .d-e {
+  margin-top: 3px;
+  font-size: 14px;
+  color: red;
+  margin-left: 5px;
+  display: none;
+}
+.register form .form-group {
+  position: relative;
+}
+.register a {
+  color: #3fd0d4;
+}
